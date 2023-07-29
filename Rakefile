@@ -18,3 +18,10 @@ task :test do
 
   HTMLProofer.check_directory('_site', options).run
 end
+
+namespace :jekyll do
+  desc 'Start jekyll server'
+  task :start do
+    sh 'jekyll serve -I --future'
+  end
+end
