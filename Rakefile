@@ -1,4 +1,8 @@
 require 'html-proofer'
+
+task default: :test
+
+desc 'Test rubima (default)'
 task :test do
   options = {
     checks: [
