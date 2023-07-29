@@ -110,6 +110,7 @@ DEPENDENCIES
   html-proofer
   jekyll
   kramdown
+  rake
   rouge
 
 BUNDLED WITH
